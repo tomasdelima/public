@@ -1,1 +1,92 @@
-a=2
+Item;Value;
+
+
+
+
+
+General;;
+Inicial;200000;
+
+
+
+
+
+Parameters;;
+BB_desv;3 (2,5;3;0,25);
+BB_ema;0,08 (0,02;0,12;0,01);
+BB_per;19 (18;22;1);
+DSM_D01;0,39 (0,3;0,4;0,01);
+DSM_D02;0,35 (0,3;0,4;0,01);
+DSM_V1;9 (8;12;1);
+Kc1;2,5 (2,5;3,5;0,25);
+Kc2;9 (8;12;1);
+LH_Elh0;0,05 (0,04;0,12;0,01);
+LH_Sub_Elh;0,02 (0,02;0,06;0,01);
+Par_Acc_Max0;0,32 (0,3;0,5;0,01);
+Par_Acc_n_Step;6 (4;8;1);
+Par_Acc0;0,29 (0,05;0,3;0,01);
+
+
+
+
+
+Tempos;;
+Acresc_T1;0,75 (0,25;0,75;0,25);
+Acresc_T2;0,75 (0,25;0,75;0,25);
+Inf;30 (10;30;5);
+Mult_Tempo1;4,3 (3,5;5;0,1);
+Mult_Tempo2;4,2 (3,5;5;0,1);
+Mult_Tempo3;3,6 (3,5;5;0,1);
+
+
+
+
+Data series;;
+
+
+
+Price based on;Last;
+
+
+
+Type;Second;
+Value;30 (30;60;10);
+
+
+
+Time frame;;
+
+
+From;04/07/2018;
+
+
+To;06/07/2018;
+Session template;<Use instrument settings>;
+General;;
+Include commission;False;
+Label;total2_ES;
+Maximum bars look back;TwoHundredFiftySix;
+Min. bars required;20;
+Historical Fill Processing;;
+Fill type;Default;
+Slippage;0;
+Optimize;;
+GO: # of Generations;50;
+GO: Crossover Rate (%);80;
+GO: Generation Size;250;
+GO: Minimum Performance;0;
+GO: Mutation Rate (%);2;
+GO: Mutation Strength (%);25;
+GO: Reset Size (%);3;
+GO: Stability Size (%);4;
+Keep best # results;500;
+Optimize data series;True;
+Optimize on...;max. net profit;
+Optimizer;Genetic;
+Order Handling;;
+Entries per direction;1;
+Entry handling;AllEntries;
+Exit on close;True;
+Order Properties;;
+Set order quantity;by strategy;
+Time in force;Gtc;

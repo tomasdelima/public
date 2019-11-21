@@ -1,2 +1,4 @@
-Foo;3 (2,5;3;0,25);
-Bar;0,08 (0,02;0,12;0,01);
+highInd,3
+lowInd,0
+inicioinc,083000
+fastClose,false

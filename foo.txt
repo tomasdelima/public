@@ -1,4 +1,4 @@
 highInd,3
 lowInd,0
 inicioinc,083000
-fastClose,false
+fastClose,true
